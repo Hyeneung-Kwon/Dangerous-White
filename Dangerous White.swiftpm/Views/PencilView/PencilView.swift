@@ -45,7 +45,7 @@ struct PencilView: View {
                     }.padding(.top)
                     
                     Spacer()
-                    Text("To view images close to the real size, adjustments are needed.\n\nPlease change the size of the image\nto your real Apple Pencil or pencil\nby using slider below.")
+                    Text("To view images close to the real size,\nadjustments are needed.\n\nPlease change the size of the image\nto your real Apple Pencil or pencil\nby using slider below.")
                         .foregroundColor(.white)
                         .padding(.top, -14)
                         .font(.title2)

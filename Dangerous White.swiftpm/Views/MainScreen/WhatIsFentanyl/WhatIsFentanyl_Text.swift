@@ -3,7 +3,6 @@ import SwiftUI
 struct WhatIsFentanyl_Text: View {
     var body: some View {
         VStack {
-            Spacer()
             Text("What is fentanyl?")
                 .bold()
                 .foregroundColor(.white)
@@ -15,7 +14,6 @@ struct WhatIsFentanyl_Text: View {
                 .font(.title3)
                 .padding(.horizontal)
                 .padding(.top)
-            Spacer()
         }
     }
 }

@@ -10,11 +10,15 @@ struct WhatIsFentanyl: View {
             ZStack{
                 BlackBackground()
                 VStack {
+                    Spacer()
                     Image("Fentanyl_dust")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .padding(.horizontal, 60.0)
+                        .frame(height: 250)
                     WhatIsFentanyl_Text()
+                        .padding(.bottom, 45.0)
+                    Spacer()
                     HStack {
                         Button(action: {isHomeBack = false}, label:{ BackButtonView()})
                         NavigationLink(destination: PencilView(isWhatisFentanyl: $isWhatisFentanyl, isHomeBack:$isHomeBack), isActive: $isWhatisFentanyl, label: {NextButtonView()})

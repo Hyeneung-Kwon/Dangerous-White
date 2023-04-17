@@ -43,7 +43,7 @@ struct FatalDoseView: View {
                         .foregroundColor(.red)
                         .multilineTextAlignment(.center)
                         .font(.largeTitle.bold())
-                    Text("Even smaller amounts of fentanyl\nthan this can lead to addiction.")
+                    Text("Even smaller amounts\ncan lead to addiction.")
                         .foregroundColor(.white)
                         .multilineTextAlignment(.center)
                         .font(.title2)
