@@ -11,7 +11,7 @@ struct Ending: View {
     let maintext : [String] = [
         "1. Don't take fentanyl out of curiosity.\n\nFentanyl is a highly addictive drug.\nUnless you have been prescribed\nfentanyl for a severe pain-causing\nillness, taking fentanyl can make\nyou addicted.",
         
-        "2. Excessive exposure to\nlethal amounts of fentanyl\ncan be counteracted with a drug \ncalled naloxone.\n\nNaloxone can be purchased\nwithout a prescription at pharmacies\nin certain countries, like as USA.",
+        "2. If someone is exposed to fentanyl\nand experiences an emergency\nsituation, emergency treatment is\npossible with a drug called naloxone.\n\nIf you want information on how to\npurchase naloxone, you can contact\nyour local pharmacy or hospital\nfor assistance.",
         
         "3. Do not consume\nany food, drink,or medication\nfrom unknown sources.\n\nThere is a risk of exposure\nto fentanyl through this route\nwithout your knowledge.\n\nIn the worst case scenario,\nthis can result in loss of life\nor fentanyl addiction.",
         
